@@ -1,12 +1,11 @@
 import { Fragment } from "react";
-import Layout from "../components/Layout";
-import { NextPage } from "next";
+import Layout from "../../components/Layout";
 
-const Home: NextPage = () => {
+const ComponentPage = () => {
   return (
     <Fragment>
       <div className="column middle" style={{ backgroundColor: "#bbb" }}>
-        <h1>Home</h1>
+        <h1>About</h1>
       </div>
       <aside className="column side" style={{ backgroundColor: "#ccc" }}>
         Aside
@@ -14,5 +13,4 @@ const Home: NextPage = () => {
     </Fragment>
   );
 };
-
-export default Home;
+export default ComponentPage;
