@@ -1,0 +1,7 @@
+/* Exemplo de uso de css module: */
+.li {
+  background-color: aliceblue;
+}
+.li:hover {
+  background-color: #fff;
+}

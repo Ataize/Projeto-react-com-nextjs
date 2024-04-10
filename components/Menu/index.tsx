@@ -1,10 +1,12 @@
 import Link from "next/link";
-
+// Para importar o arquivo css apenas para módulo e add className nome do aquivo.nome da classe no css:
+import styles from "./Menu.module.css";
 const Menu = () => {
   return (
     <nav className="column side" style={{ backgroundColor: "#aaa" }}>
       <ul>
-        <li>
+        {/* Exemplo de uso de css module eu tenhu uma variável no className que é o nome que eu dei no import do arquivo com o nome que eu dei na classe: */}
+        <li className={styles.li}>
           <Link legacyBehavior href="/">
             <a>HOME</a>
           </Link>
